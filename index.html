@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>Получение выписок из ЕГРН </title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="block get-extract">
+			<div>
+				<h2 class="title get-extract__title">Получение выписок из ЕГРН </h2>
+				<form class="get-extract__form">
+					<div class="get-extract__search">
+						<img src="images/icons/search-black.svg" alt="" class="get-extract__icon">
+						<input id="search" type="text" placeholder="Введите адрес или кадастровый номер" class="get-extract__input">
+						<button class="btn get-extract__btn">
+							<p class="get-extract__btn-text">Найти объект</p>
+							<img src="images/icons/aim-white.svg" alt="" class="get-extract__btn-icon">
+							<img src="images/icons/search-white.svg" alt=""
+								class="get-extract__btn-icon get-extract__btn-icon-mobile">
+						</button>
+					</div>
+					<label for="search" class="get-extract__label">Укажите <span class="text-line">адрес</span> или <span
+							class="text-line">кадастровый
+							номер</span>, чтобы начать
+						проверку</label>
+				</form>
+			</div>
+			<div>
+				<h2 class="title get-extract__title-2">Доступные отчеты </h2>
+				<div class="get-extract__row">
+					<div class="card">
+						<div class="card__line-1">
+							<h3 class="card__title">O характеристиках объекта</h3>
+							<ul class="card-list">
+								<li class="card-list__item">фио собственника/ов</li>
+								<li class="card-list__item">дата регистрации права собственности</li>
+								<li class="card-list__item">наличие арестов</li>
+								<li class="card-list__item">наличие запретов</li>
+								<li class="card-list__item">наличие обременений</li>
+								<li class="card-list__item">кадастровую стоимость</li>
+							</ul>
+						</div>
+						<div class="card__line-2">
+							<div class="card__price">1500 ₽</div>
+							<div class="card__btnImg">
+								<button class="btn card__btn">Скачать образец</button>
+								<img src="images/contracts/contract-1.png" alt="Contract 1" class="card__img">
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card__line-1">
+							<h3 class="card__title">О переходе права собственности</h3>
+							<ul class="card-list">
+								<li class="card-list__item">фио всех собственников с 1998года</li>
+								<li class="card-list__item">даты регистрации прав</li>
+								<li class="card-list__item">даты прекращения прав</li>
+								<li class="card-list__item">документы основания права собственности</li>
+							</ul>
+						</div>
+						<div class="card__line-2">
+							<div class="card__price">1500 ₽</div>
+							<div class="card__btnImg">
+								<button class="btn card__btn">Скачать образец</button>
+								<img src="images/contracts/contract-2.png" alt="Contract 2" class="card__img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block condition">
+			<h2 class="title condition__title">Условия работы сервиса</h2>
+			<div class="condition__row">
+				<div class="condition-item">
+					<img src="/images/icons/time.svg" alt="Сроки выдачи справки" class="condition-item__img">
+					<p class="condition-item__text">Сроки выдачи справки</p>
+				</div>
+				<div class="condition-item">
+					<img src="/images/icons/security.svg" alt="Гарантия результата" class="condition-item__img">
+					<p class="condition-item__text">Гарантия результата</p>
+				</div>
+				<div class="condition-item">
+					<img src="/images/icons/aim-blue.svg" alt="Актуальность сведений" class="condition-item__img">
+					<p class="condition-item__text">Актуальность сведений</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
